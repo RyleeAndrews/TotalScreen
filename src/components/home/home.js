@@ -2,7 +2,7 @@ import React from 'react';
 import { withRouter } from 'react-router-dom';
 
 
-export default class Home extends React.Component {
+class Home extends React.Component {
   constructor(props){
     super(props);
 
@@ -17,4 +17,4 @@ export default class Home extends React.Component {
     )
   }
 }
-withRouter(Home);
+export default withRouter(Home);
