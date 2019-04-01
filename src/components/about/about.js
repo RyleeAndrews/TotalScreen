@@ -1,5 +1,5 @@
 import React from 'react';
-import { withRouter } from 'react-router-dom';
+
 
 
 class About extends React.Component {
@@ -9,7 +9,6 @@ class About extends React.Component {
     this.state = {};
   }
   render(){
-    this.props.history.push('/about');
     return(
       <div>
         hey
@@ -17,4 +16,4 @@ class About extends React.Component {
     )
   }
 }
-export default withRouter(About);
+export default About;

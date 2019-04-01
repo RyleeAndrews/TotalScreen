@@ -9,7 +9,7 @@ class Home extends React.Component {
     this.state = {};
   }
   render(){
-    this.props.history.push('/');
+
     return(
       <div>
 
@@ -17,4 +17,4 @@ class Home extends React.Component {
     )
   }
 }
-export default withRouter(Home);
+export default Home;

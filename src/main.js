@@ -18,7 +18,7 @@ class Main extends React.Component {
     return(
       <div>
         <Provider store={store}>
-          <BrowserRouter>
+          <BrowserRouter history={history}>
             <App/>
           </BrowserRouter>
         </Provider>
